@@ -16,6 +16,8 @@ Penstore::Application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
 
+  config.serve_static_assets = false
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
@@ -26,4 +28,8 @@ Penstore::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  config.assets.enabled = true
+  config.assets.compile= true
+  
 end
