@@ -9,7 +9,10 @@
 
 @font-face{
   font-family:'segoeuil';
-  src:font-url('segoeuil.ttf');
+  src:font-url("/assets/segoeuil.ttf");
+  src:local("segoeuil"), font-url("/assets/segoeuil.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
 }
 
 html *{
