@@ -8,15 +8,15 @@
 */
 
 @font-face{
-  font-family:'segoeuil';
-  src:font-url("/assets/segoeuil.ttf");
-  src:local("segoeuil"), font-url("/assets/segoeuil.ttf") format("truetype");
+  font-family:'segoeui';
+  src:font-url("/assets/segoeui.ttf");
+  src:local("segoeui"), font-url("/assets/segoeui.ttf") format("truetype");
   font-weight:normal;
   font-style:normal;
 }
 
 html *{
-  font-family:'segoeuil';
+  font-family:'segoeui';
 }
 
 /********FONT********/
