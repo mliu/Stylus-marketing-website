@@ -14,6 +14,8 @@ end
 
 gem 'haml'
 
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 gem 'purecss-rails'
 
 # Use SCSS for stylesheets
